@@ -1,7 +1,7 @@
 provider "aws" {
   region     = "ap-south-1"
-  access_key = "AKIAWFJHP6I2S6VOMMFU"
-  secret_key = "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"
+  access_key = "XXXXXXXXXXXXXX"
+  secret_key = "XXXXXXXXXXXXXXXX"
 }
 
 # Create a new key pair for EC2 instance
