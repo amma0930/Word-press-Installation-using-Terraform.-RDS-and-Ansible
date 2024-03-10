@@ -14,6 +14,10 @@ Create ansible playbook in yml format
 
 Create apache.conf.j2 file
 
+Create wp-config.php.j2
+
 Run ansible playbook to install wordpress.
+
+Enable and restart apache2 again.
 
 Then connect through ec2 public ip with html protocol and write details of database
