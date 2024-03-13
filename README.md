@@ -6,6 +6,12 @@ Create main.tf file in terraform to create EC2 instance and RDS instance. Connec
 
 Install, enable, and start mariadb in EC2 using console, and check connection between EC2 Instance and RDS through mysql -h hostname -P port -u username -p password
 
+CREATE DATABASE your_database_name;
+
+GRANT ALL PRIVILEGES ON your_database_name.* TO 'admin'@'%' IDENTIFIED BY 'your_password';
+
+FLUSH PRIVILEGES;
+
 Install ansible
 
 Create inventory file 
